@@ -3,10 +3,9 @@ package Homeworks.hw2;
 public class Main {
 
     public static void main(String[] args) {
-        Car car = new Car("Ford", "Focus", 2022);
-        Motorcycle motorcycle = new Motorcycle("Harley", "Davidson", 2021);
+        Car car = new Car("Toyota", "Camry", 2020);
+        Motorcycle motorcycle = new Motorcycle("Yamaha", "Niken", 2021);
 
-        // переопределение метода toString в классах-наследниках достойно восхищения...
         System.out.println(car);
         System.out.println(motorcycle);
 
