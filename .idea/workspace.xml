@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3e6529-6e0f-4510-8ea7-74f521ed73e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson1/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson2/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson3/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw2/VehicleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task1/EvenOddNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task2/NumberInInterval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/task descrition.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson2/CalculationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson3/CalculationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task1/EvenOddNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task2/NumberInIntervalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task3/UserRepositoryAdminTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/hw2/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +60,8 @@
     "Application.Homeworks.hw2.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CalculationTest.executor": "Run",
+    "JUnit.UserRepositoryAdminTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -74,8 +81,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Homeworks.hw2.Main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Homeworks.hw2.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Unit-tests" />
       <option name="VM_PARAMETERS" value="-ea" />
       <method v="2">
@@ -102,7 +109,8 @@
       <workItem from="1722429536561" duration="5476000" />
       <workItem from="1722602100518" duration="749000" />
       <workItem from="1722713521403" duration="1832000" />
-      <workItem from="1722849170379" duration="707000" />
+      <workItem from="1722849170379" duration="1985000" />
+      <workItem from="1723122581654" duration="1152000" />
     </task>
     <servers />
   </component>
