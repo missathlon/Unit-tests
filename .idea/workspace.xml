@@ -5,17 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3e6529-6e0f-4510-8ea7-74f521ed73e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task1/EvenOddNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task2/NumberInInterval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/task descrition.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson2/CalculationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lessons/lesson3/CalculationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task1/EvenOddNumberTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task2/NumberInIntervalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task3/UserRepositoryAdminTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/InMemoryBookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/task1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/test4/BookServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Unit-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit-tests.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,7 @@
     "Application.Homeworks.hw2.Main.executor": "Run",
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BookServiceTest.executor": "Run",
     "JUnit.CalculationTest.executor": "Run",
     "JUnit.UserRepositoryAdminTest.executor": "Run",
     "Repository.Attach.Annotations": "false",
@@ -80,7 +79,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\missa\IdeaProjects\Unit-tests\src\Homeworks\hw4" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.BookServiceTest">
     <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Unit-tests" />
@@ -89,6 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Unit-tests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homeworks.hw4.test4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homeworks.hw4.test4" />
+      <option name="MAIN_CLASS_NAME" value="Homeworks.hw4.test4.BookServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BookServiceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -110,7 +134,8 @@
       <workItem from="1722602100518" duration="749000" />
       <workItem from="1722713521403" duration="1832000" />
       <workItem from="1722849170379" duration="1985000" />
-      <workItem from="1723122581654" duration="1152000" />
+      <workItem from="1723122581654" duration="2075000" />
+      <workItem from="1723405086896" duration="3142000" />
     </task>
     <servers />
   </component>
