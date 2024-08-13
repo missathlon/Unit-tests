@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3e6529-6e0f-4510-8ea7-74f521ed73e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/main/InMemoryBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/task1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Homeworks/hw4/test4/BookServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task12/EvenOddNumbTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task12/NumberInIntervalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task3/UserRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/homeworks/hw3/task3/UserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unit-tests.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Unit-tests.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw3/task1/EvenOddNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task12/EvenOddNumb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw3/task2/NumberInInterval.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw3/task3/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw3/task3/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task3/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homeworks/hw3/task3/task descrition.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homeworks/hw3/task descrition.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/homeworks/hw3/task1/EvenOddNumberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/homeworks/hw3/task2/NumberInIntervalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/homeworks/hw3/task3/UserRepositoryAdminTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,34 +57,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Homeworks.hw2.Main.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.BookServiceTest.executor": "Run",
-    "JUnit.CalculationTest.executor": "Run",
-    "JUnit.UserRepositoryAdminTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Homeworks.hw2.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.BookServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CalculationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserRepositoryAdminTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\missa\IdeaProjects\Unit-tests\src\Homeworks\hw3\main" />
       <recent name="C:\Users\missa\IdeaProjects\Unit-tests\src\Homeworks\hw4" />
     </key>
   </component>
@@ -135,7 +141,8 @@
       <workItem from="1722713521403" duration="1832000" />
       <workItem from="1722849170379" duration="1985000" />
       <workItem from="1723122581654" duration="2075000" />
-      <workItem from="1723405086896" duration="3142000" />
+      <workItem from="1723405086896" duration="4007000" />
+      <workItem from="1723548960354" duration="1879000" />
     </task>
     <servers />
   </component>

@@ -2,44 +2,48 @@ package Homeworks.hw3.task3;
 
 public class User {
 
-    private final String login;
-    private final String password;
-    private boolean authentication;
-    private final boolean isAdmin;
+    String name;
+    String password;
+    boolean isAdmin;
 
-    public User(String login, String password, boolean authentication, boolean isAdmin) {
-        this.login = login;
-        this.password = password;
-        this.authentication = authentication;
+    boolean isAuthenticate = false;
+
+    public User(String name, String password, boolean isAdmin) {
+        if (!isAdmin) {
+            this.name = name;
+            this.password = password;
+        } else {
+            this.name = "admin";
+            this.password = "passw";
+        }
         this.isAdmin = isAdmin;
     }
 
-    public String getLogin() {
-        return login;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public boolean getAuthentication() {
-        return authentication;
-    }
-
-    public void setAuthentication(boolean authentication) {
-        this.authentication = authentication;
-    }
-
-    public boolean isAdmin() {
-        return isAdmin;
-    }
-
-    public boolean authenticate(String login, String password) {
-        if (login.equals(this.login) && password.equals(this.password)) {
-            authentication = true;
-        } else {
-            authentication = false;
+    //3.6.
+    public boolean authenticate(String nameIn, String passwordIn) {
+        if (name.equals(nameIn)) {
+            if (password.equals(passwordIn)) {
+                isAuthenticate = true;
+                return true;
+            }
         }
-        return authentication;
+        return false;
+    }
+
+    public boolean logout(String nameOut) {
+        if (name.equals(nameOut)) {
+            isAuthenticate = false;
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String toString() {
+        return "\nUser{" +
+                "  name= '" + name + '\'' +
+                ", password= '" + password + '\'' +
+                ", isAuthenticate= " + isAuthenticate +
+                "  }";
     }
 }
