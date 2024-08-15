@@ -6,6 +6,6 @@
 5. Задание случайных значений для списков.
    Все сценарии выбраны для полного покрытия кода.
 
-! [Coverage] (/pict/Coverage.png)
+![Coverage](https://github.com/missathlon/Unit-tests/blob/master/src/homeworks/hw6/pict/Coverage.png?raw=true)
 
-! [Checkstyle] (/pict/Checkstyle.png)
+![Checkstyle](https://github.com/missathlon/Unit-tests/blob/master/src/homeworks/hw6/pict/Checkstyle.png?raw=true)
