@@ -1,4 +1,4 @@
-package homeworks.hw3.hw3.task3;
+package test.hw3.task3;
 
 import homeworks.hw3.task3.User;
 import homeworks.hw3.task3.UserRepository;

@@ -1,5 +1,8 @@
-package homeworks.hw2;
+package test.hw2;
 
+import homeworks.hw2.Car;
+import homeworks.hw2.Motorcycle;
+import homeworks.hw2.Vehicle;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

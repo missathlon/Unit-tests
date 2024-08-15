@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f3e6529-6e0f-4510-8ea7-74f521ed73e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/homeworks/hw6/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks/hw6/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/hw3/hw3/task12/EvenOddNumbTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hw3/task12/EvenOddNumbTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/hw3/hw3/task12/NumberInIntervalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hw3/task12/NumberInIntervalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/hw3/hw3/task3/UserRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hw3/task3/UserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/hw3/hw3/task3/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/hw3/task3/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks/hw4/test4/BookServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test4/BookServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +231,7 @@
       <workItem from="1723717105393" duration="1555000" />
       <workItem from="1723718691619" duration="2663000" />
       <workItem from="1723721593850" duration="9587000" />
-      <workItem from="1723747111847" duration="1511000" />
+      <workItem from="1723747111847" duration="2020000" />
     </task>
     <servers />
   </component>

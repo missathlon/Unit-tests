@@ -1,4 +1,4 @@
-package homeworks.hw3.hw3.task12;
+package test.hw3.task12;
 
 import homeworks.hw3.task12.EvenOddNumb;
 import org.junit.jupiter.api.BeforeEach;
